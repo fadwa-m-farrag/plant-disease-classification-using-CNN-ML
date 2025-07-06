@@ -14,6 +14,7 @@ import mlflow
 import mlflow.sklearn
 from mlflow.models import infer_signature
 import os
+from cnn import CNN 
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 os.environ["MLFLOW_ENABLE_ARTIFACTS_STORAGE"] = "false"
@@ -63,33 +64,6 @@ sampler = WeightedRandomSampler(
 
 train_loader = DataLoader(train_dataset, batch_size=8, sampler=sampler)
 test_loader = DataLoader(test_dataset, batch_size=8, shuffle=False)
-
-class CNN(nn.Module):
-    def __init__(self):
-        super(CNN, self).__init__()
-        self.conv_layer = nn.Sequential(
-                nn.Conv2d(3, 16, kernel_size=2, padding=1),
-                #nn.ReLU(),
-                nn.Conv2d(16, 16, kernel_size=2, padding=1),
-                nn.ReLU(),
-                nn.MaxPool2d(2),
-
-                nn.Conv2d(16, 32, kernel_size=2, padding=1),
-                #nn.ReLU(),
-                nn.Conv2d(32, 32, kernel_size=2, padding=1),
-                nn.ReLU(),
-                nn.MaxPool2d(2),
-
-                nn.Conv2d(32, 64, kernel_size=2, padding=1),
-                #nn.ReLU(),
-                nn.Conv2d(64, 64, kernel_size=2, padding=1),
-                nn.ReLU(),
-                nn.AdaptiveAvgPool2d(output_size=(1,1))
-                )
-        
-    def forward(self, x):
-            x = self.conv_layer(x)
-            return x.view(x.size(0), -1)
 
 model = CNN().to(device)
 model.eval()
