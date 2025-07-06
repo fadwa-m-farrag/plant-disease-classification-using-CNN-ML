@@ -133,7 +133,6 @@ with mlflow.start_run():
 
     mlflow.log_artifact("classification_report.txt")
 
-
 torch.save(model.state_dict(), 'cnn_feature_extractor.pth')
 
 joblib.dump(pca, 'pca_model.pkl')
