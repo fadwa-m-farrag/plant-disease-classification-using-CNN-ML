@@ -1,5 +1,4 @@
 import torch
-import torch.nn as nn
 from torch.utils.data import Dataset, Subset, DataLoader, WeightedRandomSampler 
 from torchvision import datasets
 from torchvision.transforms import v2 
@@ -61,7 +60,6 @@ sampler = WeightedRandomSampler(
     replacement=True  
 )
 
-
 train_loader = DataLoader(train_dataset, batch_size=8, sampler=sampler)
 test_loader = DataLoader(test_dataset, batch_size=8, shuffle=False)
 
@@ -112,3 +110,4 @@ torch.save(model.state_dict(), 'cnn_feature_extractor.pth')
 joblib.dump(pca, 'pca_model.pkl')
 joblib.dump(xgb, 'ml_classifier.pkl')
 
+joblib.dump(class_names, 'class_names.pkl')
