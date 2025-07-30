@@ -1,0 +1,9 @@
+gradio
+torch
+torchvision
+scikit-learn
+joblib
+pillow
+mlflow 
+numpy
+xgboost
