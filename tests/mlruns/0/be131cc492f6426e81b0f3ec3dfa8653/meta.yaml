@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/be131cc492f6426e81b0f3ec3dfa8653/artifacts
+end_time: 1751803404447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be131cc492f6426e81b0f3ec3dfa8653
+run_name: beautiful-kite-326
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751803400096
+status: 3
+tags: []
+user_id: fadwa

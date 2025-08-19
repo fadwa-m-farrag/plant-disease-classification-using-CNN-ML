@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/6f842ceb82d34710acfc4a47b66cb2c5/artifacts
+end_time: 1755593137121
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f842ceb82d34710acfc4a47b66cb2c5
+run_name: gaudy-hound-914
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755593133814
+status: 4
+tags: []
+user_id: fadwa

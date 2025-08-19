@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/5b0cb4ae845c424ab5d86911eba2e771/artifacts
+end_time: 1751802244206
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b0cb4ae845c424ab5d86911eba2e771
+run_name: suave-skink-818
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751802243786
+status: 4
+tags: []
+user_id: fadwa

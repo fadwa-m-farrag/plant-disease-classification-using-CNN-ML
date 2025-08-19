@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/656f3e79d329486d9b360e822b40d65f/artifacts
+end_time: 1751810754219
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 656f3e79d329486d9b360e822b40d65f
+run_name: adorable-snake-465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751810750712
+status: 3
+tags: []
+user_id: fadwa

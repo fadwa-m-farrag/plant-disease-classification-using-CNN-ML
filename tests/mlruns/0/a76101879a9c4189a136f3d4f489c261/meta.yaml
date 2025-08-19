@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/a76101879a9c4189a136f3d4f489c261/artifacts
+end_time: 1751803370990
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a76101879a9c4189a136f3d4f489c261
+run_name: charming-newt-654
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751803238084
+status: 3
+tags: []
+user_id: fadwa

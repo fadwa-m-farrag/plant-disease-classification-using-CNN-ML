@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/0d9a613e97394b03827e28d215d67cb7/artifacts
+end_time: 1751803710543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d9a613e97394b03827e28d215d67cb7
+run_name: overjoyed-moth-438
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751803710220
+status: 4
+tags: []
+user_id: fadwa

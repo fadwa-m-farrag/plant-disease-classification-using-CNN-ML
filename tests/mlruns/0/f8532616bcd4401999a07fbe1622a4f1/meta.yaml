@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/f8532616bcd4401999a07fbe1622a4f1/artifacts
+end_time: 1751803944570
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8532616bcd4401999a07fbe1622a4f1
+run_name: unique-shrimp-994
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751803940124
+status: 3
+tags: []
+user_id: fadwa

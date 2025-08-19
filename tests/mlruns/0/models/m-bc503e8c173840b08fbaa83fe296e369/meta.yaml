@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/0/models/m-bc503e8c173840b08fbaa83fe296e369/artifacts
+creation_timestamp: 1751803940489
+experiment_id: '0'
+last_updated_timestamp: 1751803944541
+model_id: m-bc503e8c173840b08fbaa83fe296e369
+model_type: ''
+name: XGBClassifier
+source_run_id: f8532616bcd4401999a07fbe1622a4f1
+status: 2
+status_message: null

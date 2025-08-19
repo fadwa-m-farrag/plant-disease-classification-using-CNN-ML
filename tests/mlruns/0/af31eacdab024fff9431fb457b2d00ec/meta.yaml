@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/af31eacdab024fff9431fb457b2d00ec/artifacts
+end_time: 1751804111446
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af31eacdab024fff9431fb457b2d00ec
+run_name: whimsical-lynx-431
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751804106339
+status: 3
+tags: []
+user_id: fadwa
