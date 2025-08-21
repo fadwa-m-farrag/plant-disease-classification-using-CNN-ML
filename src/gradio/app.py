@@ -3,16 +3,16 @@ import torch
 import joblib
 from PIL import Image
 from torchvision.transforms import v2
-from cnn import CNN
+from models.cnn import CNN
 
 device = torch.device("cuda")
 model = CNN().to(device)
-model.load_state_dict(torch.load("cnn_feature_extractor.pth", map_location=device))
+model.load_state_dict(torch.load("model files/cnn.pth", map_location=device))
 model.eval()
 
-pca = joblib.load("pca_model.pkl")
-clf = joblib.load("ml_classifier.pkl")
-class_names = joblib.load("class_names.pkl")
+pca = joblib.load("model files/pca.pkl")
+clf = joblib.load("model files/xgb.pkl")
+class_names = joblib.load("model files/classNames.pkl")
 
 transform = v2.Compose([
     v2.ToImage(),

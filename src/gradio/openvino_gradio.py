@@ -11,9 +11,9 @@ compiled_model = ie.compile_model(model=model_ir, device_name="CPU")
 input_layer = compiled_model.input(0)
 output_layer = compiled_model.output(0)
 
-pca = joblib.load("pca_model.pkl")
-clf = joblib.load("ml_classifier.pkl")
-class_names = joblib.load("class_names.pkl")
+pca = joblib.load("model files/pca.pkl")
+clf = joblib.load("model files/xgb.pkl")
+class_names = joblib.load("model files/classNames.pkl")
 
 transform = v2.Compose([
     v2.ToImage(),

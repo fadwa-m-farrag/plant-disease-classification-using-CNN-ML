@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/3f2466a4f9f344e3a707047e7434026a/artifacts
+end_time: 1755597664765
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f2466a4f9f344e3a707047e7434026a
+run_name: secretive-asp-232
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755597661652
+status: 4
+tags: []
+user_id: fadwa

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/b379aa934ec6403898c799a6abfa849d/artifacts
+end_time: 1755596575410
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b379aa934ec6403898c799a6abfa849d
+run_name: melodic-foal-288
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755596572315
+status: 4
+tags: []
+user_id: fadwa

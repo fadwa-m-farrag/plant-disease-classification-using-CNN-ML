@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/afb8e9e2a89e4190807cd0b5e962c353/artifacts
+end_time: 1755792419491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: afb8e9e2a89e4190807cd0b5e962c353
+run_name: chill-pug-701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755792413824
+status: 3
+tags: []
+user_id: fadwa

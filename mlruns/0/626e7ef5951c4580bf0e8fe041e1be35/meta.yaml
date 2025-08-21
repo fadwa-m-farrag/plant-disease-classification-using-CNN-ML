@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/626e7ef5951c4580bf0e8fe041e1be35/artifacts
+end_time: 1755790797603
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 626e7ef5951c4580bf0e8fe041e1be35
+run_name: merciful-rat-630
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755790792643
+status: 4
+tags: []
+user_id: fadwa

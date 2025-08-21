@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/7cdb15eae6174415b51eff51fddcf9ba/artifacts
+end_time: 1755792090641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7cdb15eae6174415b51eff51fddcf9ba
+run_name: unique-worm-137
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755792086275
+status: 4
+tags: []
+user_id: fadwa

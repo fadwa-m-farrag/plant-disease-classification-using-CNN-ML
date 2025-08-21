@@ -11,11 +11,11 @@ from sklearn.model_selection import train_test_split
 
 device = torch.device('cuda')
 model = CNN().to(device)
-model.load_state_dict(torch.load("cnn_feature_extractor.pth", map_location=device))
+model.load_state_dict(torch.load("model files/cnn.pth", map_location=device))
 model.eval()
 
-pca = joblib.load("pca_model.pkl")
-clf = joblib.load("ml_classifier.pkl")
+pca = joblib.load("model files/pca.pkl")
+clf = joblib.load("model files/xgb.pkl")
 
 test_transform = v2.Compose([
      v2.ToImage(),

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/05c4e0c78403460da8ec677ffb7cce75/artifacts
+end_time: 1755791844956
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 05c4e0c78403460da8ec677ffb7cce75
+run_name: exultant-shrimp-936
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755791840680
+status: 4
+tags: []
+user_id: fadwa

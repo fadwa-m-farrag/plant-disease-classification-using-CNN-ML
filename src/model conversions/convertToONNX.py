@@ -1,9 +1,9 @@
 import torch
-from cnn import CNN
+from models.cnn import CNN
 
 device = torch.device("cpu")
 model = CNN()
-model.load_state_dict(torch.load("cnn_feature_extractor.pth", map_location=device))
+model.load_state_dict(torch.load("model files/cnn.pth", map_location=device))
 model.eval()
 
 dummy_input = torch.randn(1,3,256,256)

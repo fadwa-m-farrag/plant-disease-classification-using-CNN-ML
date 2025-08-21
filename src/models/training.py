@@ -12,11 +12,10 @@ import joblib
 import mlflow 
 import mlflow.sklearn
 from mlflow.models import infer_signature
-import os
 from cnn import CNN 
 
 mlflow.set_tracking_uri('http://localhost:5000')
-os.environ["MLFLOW_ENABLE_ARTIFACTS_STORAGE"] = "false"
+print(mlflow.get_tracking_uri())
 device = torch.device('cuda')
 
 train_transform = v2.Compose([
